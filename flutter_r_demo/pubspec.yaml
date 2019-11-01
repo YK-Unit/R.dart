@@ -1,0 +1,44 @@
+---
+name: flutter_r_demo
+description: A demo to show how to use R tool in flutter project
+version: 1.0.0+1
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: "^0.1.2"
+  r_dart_library:
+    git:
+      url: git@github.com:YK-Unit/r_dart_library.git
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+  - packages/flutter_r_demo/assets/images/ test blank.png
+  - packages/flutter_r_demo/assets/images/$$test$.png
+  - packages/flutter_r_demo/assets/images/$$test$.svg
+  - packages/flutter_r_demo/assets/images/$test.png
+  - packages/flutter_r_demo/assets/images/$test.svg
+  - packages/flutter_r_demo/assets/images/User@white.png
+  - packages/flutter_r_demo/assets/images/body_check_done_human.png
+  - packages/flutter_r_demo/assets/images/body_checking_human.png
+  - packages/flutter_r_demo/assets/images/btn_cycle_down_80_H.png
+  - packages/flutter_r_demo/assets/images/btn_cycle_down_80_N.png
+  - packages/flutter_r_demo/assets/images/5number.png
+  - packages/flutter_r_demo/assets/images/_test.png
+  - packages/flutter_r_demo/assets/images/_test.svg
+  - packages/flutter_r_demo/assets/images/icon.ignoreme.png
+  - packages/flutter_r_demo/assets/images/manipulation_knead_N.svg
+  - packages/flutter_r_demo/assets/images/manipulation_knead_S.svg
+  - packages/flutter_r_demo/assets/images/sameName.gif
+  - packages/flutter_r_demo/assets/images/sameName.jpg
+  - packages/flutter_r_demo/assets/images/sameName.png
+  - packages/flutter_r_demo/assets/images/test.png
+  - packages/flutter_r_demo/assets/images/~!$test.png
+  - packages/flutter_r_demo/assets/json/$$test$.json
+  - packages/flutter_r_demo/assets/json/test.json
+  - packages/flutter_r_demo/assets/yaml/$$test$.yaml
+  - packages/flutter_r_demo/assets/yaml/test.yaml
