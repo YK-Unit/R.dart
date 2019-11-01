@@ -27,7 +27,7 @@
 .packages
 .pub-cache/
 .pub/
-/build/
+flutter_r_demo/build/
 
 # Android related
 **/android/**/gradle-wrapper.jar
