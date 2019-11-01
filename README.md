@@ -3,6 +3,18 @@
 
 
 
+# `R.generated.rb` feature
+
+
+
+- 支持配置检索的目录
+- 支持图片资源和文本资源的检索和外部化
+- 支持变体（variant）图片资源的外部化
+- 支持名称含有特殊字符（如`~`、`!`、`@`、`#`、`$`等）的资源的外部化
+- 支持类型不同但名称相同的资源的外部化
+
+
+
 # How to use `R.generated.rb`
 
 下面将会通过示例工程 [flutter_r_demo](https://github.com/YK-Unit/R.dart/tree/master/flutter_r_demo) 演示如何使用`R.generated.rb`工具：
@@ -35,4 +47,3 @@
 
 1. 为脚本工具增加版本检测功能
 2. 支持更多类型资源的检测和外部化
-
