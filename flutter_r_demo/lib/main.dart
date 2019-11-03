@@ -85,6 +85,17 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
+    var normalImageWidget = Image(
+      width: 113,
+      height: 128,
+      image: R_Image.a_test_blank,
+    );
+
+    var svgImageWidget = Image(
+      width: 100,
+      height: 100,
+      image: R_Svg.a$$test$(width: 100, height: 100),
+    );
 
     return Scaffold(
       appBar: AppBar(
@@ -110,16 +121,8 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               onPressed: _readTestYaml,
             ),
-            Image(
-              width: 113,
-              height: 128,
-              image: R_Image.a_test_blank,
-            ),
-            Image(
-              width: 100,
-              height: 100,
-              image: R_Svg.a$$test$(width: 100, height: 100),
-            ),
+            normalImageWidget,
+            svgImageWidget,
             Image(
               image: R_Image.sameName_gif,
             ),

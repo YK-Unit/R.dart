@@ -1,5 +1,5 @@
 # About R.dart
-`R.dart`项目旨在为Flutter开发者提供类似Android下的R方案的体验：其提供了一个脚本工具`R.generated.rb`，使Flutter开发者运行一个命令即可自动检索指定的APP资源目录，并对检索的APP资源进行代码外部化（ externalize app resources with code），最后生成`R`类（对应`R.dart`文件）供开发者通过资源ID来应用资源。
+`R.dart`项目旨在为Flutter开发者提供类似Android下的R方案的体验：其提供了一个脚本工具`R.generated.rb`，使Flutter开发者运行一个命令即可自动检索指定的APP资源目录，并对检索的APP资源进行代码外部化（ externalize app resources with code），最后生成`R`类（对应`R.dart`文件）供开发者在代码中通过资源ID（资源ID一般为资源的名称）来访问APP资源。
 
 
 
@@ -39,6 +39,38 @@
 4. 在你的Flutter项目根目录执行命令：`ruby R.generated.rb`
 
    ![image-20191101175944606](README_Asserts/run_r.png)
+
+   
+
+   这时候，在Flutter项目根目录的lib文件夹下，会多出一个`R.dart`文件：
+
+   ![image-20191103220748817](README_Asserts/r.dart.png)
+
+   
+
+   然后，开发者借助`R`类，即可在代码中通过资源ID来访问图片资源和文本资源：
+
+   ```dart
+   /// 访问一般图片资源
+   var normalImageWidget = Image(
+     width: 113,
+     height: 128,
+     image: R_Image.a_test_blank,
+   );
+   
+   /// 访问SVG图片资源
+   var svgImageWidget = Image(
+     width: 100,
+     height: 100,
+     image: R_Svg.a$$test$(width: 100, height: 100),
+   );
+   
+   /// 访问文本资源
+   var rawString = await R_Text.a$$test$_json();
+   
+   ```
+
+   
 
 5. 若更新了（增删改）APP资源，则再次执行步骤4即可~
 
