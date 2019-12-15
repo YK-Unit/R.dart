@@ -1,3 +1,6 @@
+# DEPRECATED
+现在研发了一个更好的管理Flutter资源的工具：[Flr(Flutter-R)](https://github.com/YK-Unit/Flr)，故把当前项目废弃掉。
+
 # About R.dart
 `R.dart`项目旨在为Flutter开发者提供类似Android下的R方案的体验：其提供了一个脚本工具`R.generated.rb`，使Flutter开发者运行一个命令即可自动检索指定的APP资源目录，并对检索的APP资源进行代码外部化（ externalize app resources with code），最后生成`R`类（对应`R.dart`文件）供开发者在代码中通过资源ID（资源ID一般为资源的名称）来访问APP资源。
 
