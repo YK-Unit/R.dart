@@ -38,7 +38,7 @@ flutter:
   - packages/flutter_r_demo/assets/images/sameName.png
   - packages/flutter_r_demo/assets/images/test.png
   - packages/flutter_r_demo/assets/images/~!$test.png
-  - packages/flutter_r_demo/assets/json/$$test$.json
-  - packages/flutter_r_demo/assets/json/test.json
-  - packages/flutter_r_demo/assets/yaml/$$test$.yaml
-  - packages/flutter_r_demo/assets/yaml/test.yaml
+  - packages/flutter_r_demo/assets/jsons/$$test$.json
+  - packages/flutter_r_demo/assets/jsons/test.json
+  - packages/flutter_r_demo/assets/yamls/$$test$.yaml
+  - packages/flutter_r_demo/assets/yamls/test.yaml

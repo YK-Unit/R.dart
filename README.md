@@ -14,7 +14,7 @@
 - 支持图片资源（`.png`、 `.jpg`、 `.jpeg`、 `.gif`、 `.webp`、 `.icon`、 `.bmp`、 `.wbmp`、`.svg`）和文本资源（`.txt`、`.json`、`.yaml`、`.xml`）的检索和外部化
 - 支持变体（variant）图片资源的外部化
 - 支持名称首字符为数字的资源的外部化
-- 支持名称含有特殊字符（如`~`、`!`、`@`、`#`、`$`等）的资源的外部化
+- 支持名称含有特殊字符（如`~`、`!`、`@`、`#`等）的资源的外部化
 - 支持类型不同但名称相同的资源的外部化
 
 
@@ -25,11 +25,11 @@
 
 1. 拷贝`R.generated.rb`和`R.config.yaml`到你的Flutter项目根目录：
 
-   ![image-20191101174818234](README_Asserts/copy_r.png)
+   ![image-20191101174818234](README_Assets/copy_r.png)
 
 2. 添加依赖包 [r_dart_Library](https://github.com/YK-Unit/r_dart_Library) 到你的Flutter项目中：
 
-   ![image-20191101175142788](README_Asserts/add_package.png)
+   ![image-20191101175142788](README_Assets/add_package.png)
 
    
 
@@ -37,17 +37,17 @@
 
 3. 根据你的Flutter项目资源放置情况，配置`R.config.yaml`：
 
-   ![image-20191101175634180](README_Asserts/update_r_config.png)
+   ![image-20191101175634180](README_Assets/update_r_config.png)
 
 4. 在你的Flutter项目根目录执行命令：`ruby R.generated.rb`
 
-   ![image-20191101175944606](README_Asserts/run_r.png)
+   ![image-20191101175944606](README_Assets/run_r.png)
 
    
 
    这时候，在Flutter项目根目录的lib文件夹下，会多出一个`R.dart`文件：
 
-   ![image-20191103220748817](README_Asserts/r.dart.png)
+   ![image-20191103220748817](README_Assets/r.dart.png)
 
    
 

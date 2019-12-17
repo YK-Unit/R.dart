@@ -1,10 +1,10 @@
-# 配置需要检索的资源目录
+# 配置需要扫描的资源目录
 assets:
-  # 配置需要检索的图片资源目录
+  # 配置需要扫描的图片资源目录
   images:
     - lib/assets/images
-  # 配置需要检索的文本资源目录
+  # 配置需要扫描的文本资源目录
   texts:
-    - lib/assets/json
-    - lib/assets/yaml
+    - lib/assets/jsons
+    - lib/assets/yamls
 

@@ -54,7 +54,7 @@ packages:
       name: flutter_svg
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.14.3"
+    version: "0.14.4"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -121,7 +121,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "86062c7bd74ee2696958958a4279aef034c43b31"
+      resolved-ref: f9ab5f550f62ba1be2b82f8911ff19c0451e021e
       url: "git@github.com:YK-Unit/r_dart_library.git"
     source: git
     version: "0.1.0"
